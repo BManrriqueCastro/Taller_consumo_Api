@@ -13,6 +13,7 @@ Una aplicación desarrollada en React que consume la API pública de [Rick and M
 
 ## Estructura
 
+```plaintext
 src/
 ├── components/
 │   ├── CharacterCard.jsx          # Componente para cada tarjeta de personaje
@@ -24,7 +25,7 @@ src/
 │   └── CharacterDetailsPage.jsx   # Página de detalles del personaje
 ├── App.jsx                        # Definición de rutas
 └── main.jsx                       # Punto de entrada de la aplicación
-
+```
 ---
 
 ## Tecnologías utilizadas
