@@ -11,13 +11,19 @@ Una aplicación desarrollada en React que consume la API pública de [Rick and M
 
 ---
 
-## Capturas de pantalla
+## Estructura
 
-1. **Página principal (Home)**:
-   Muestra una lista de personajes con una barra de búsqueda.
-   
-2. **Detalles del personaje**:
-   Visualiza información específica como imagen, estado, especie, género y origen.
+src/
+├── components/
+│   ├── CharacterCard.jsx          # Componente para cada tarjeta de personaje
+│   ├── CharacterList.jsx          # Componente para mostrar la lista de personajes
+│   ├── SearchBar.jsx              # Componente de búsqueda
+│   └── CharacterDetails.jsx       # Componente para mostrar los detalles de un personaje específico
+├── pages/
+│   ├── Home.jsx                   # Página principal
+│   └── CharacterDetailsPage.jsx   # Página de detalles del personaje
+├── App.jsx                        # Definición de rutas
+└── main.jsx                       # Punto de entrada de la aplicación
 
 ---
 
@@ -30,10 +36,6 @@ Una aplicación desarrollada en React que consume la API pública de [Rick and M
 
 ---
 
-## Instalación y ejecución
-
-Sigue estos pasos para ejecutar el proyecto en tu máquina local:
-
-1. Clona este repositorio:
+## Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
+   git clone https://github.com/BManrriqueCastro/Taller_consumo_Api.git
